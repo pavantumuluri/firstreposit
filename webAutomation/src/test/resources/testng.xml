@@ -1,0 +1,18 @@
+<suite name="suite1">
+	<test name="windowalerts">
+		<classes>
+			<class name="seleniumBuilds.WindowAlerts"/>
+				<methods>
+					<include name="urlOpen"/>
+					<include name="windowHandling"/>
+				</methods>
+		</classes>
+	</test>
+	
+		
+		<listeners>
+ 			<listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+  			<listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+  			<listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+  		</listeners>
+</suite>
